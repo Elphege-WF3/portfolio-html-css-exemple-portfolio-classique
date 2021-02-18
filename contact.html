@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/master.css" />
+  </head>
+  <body>
+    <header class="bg--primary">
+        <nav>
+            <a class="text--light text--none p--1" href="index.html">Accueil</a>
+            <a class="text--light text--none p--1" href="projets.html">Projets</a>
+            <a class="text--light text--none p--1" href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="main-container d--flex">
+      <aside class="p--1">
+        <div class="card bg--light p--1">
+          <div class="card__photo">
+            <img class="card__img" src="images/photo.jpg" alt="Photo" />
+          </div>
+          <div class="card__txt">
+            <blockquote>
+              <h2>Prénom Nom</h2>
+              <p>
+                Illum quia quo sint rerum autem. Iure quis amet. Labore pariatur aperiam similique quia odio iure placeat vero. Quibusdam deserunt nam aut ipsa et eos sunt. Sit aut explicabo repudiandae.
+              </p>
+            </blockquote>
+            <br>
+          </div>
+        </div>
+      </aside>
+
+      <main>
+        <section class="p--1">
+          <div class="p--left">
+          <h2 class="p--left">Contact</h2>
+                <form>
+                    <label class="p--left" for="prenom">Prénom : </label>
+                    <input id="prenom" type="text">
+    
+                    <label class="p--left" for="nom">Nom : </label>
+                    <input id="nom" type="text">
+    
+                    <label class="p--left" for="email">Email : </label>
+                    <input id="email" type="email">
+    
+                    <label class="p--left" for="tel">Tel : </label>
+                    <input id="tel" type="tel">
+    
+                    <label class="p--left" for="subject">Sujet : </label>
+                    <input id="subject" type="text">
+    
+                    <label class="p--left" for="message">Message : </label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+    
+                    <button type="submit">Envoyer votre message</button>
+                </form>
+          </div>
+        </section>
+
+      </main>
+    </div>
+    <footer class="p--1">
+    </footer>
+  </body>
+</html>
