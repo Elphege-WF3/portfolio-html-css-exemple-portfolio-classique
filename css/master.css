@@ -60,7 +60,9 @@ a {
     font-weight: bold;
 }
 
-/*FRAMEWORK*/
+.fs--italic {
+    font-style: italic;
+}
 
 /*PARENT*/
 
@@ -90,7 +92,6 @@ a {
     flex: 1 1 250px;
 }
 
-
 /*ESPACEMENT*/
 
 .m--1 {
@@ -105,7 +106,12 @@ a {
     padding-left: 1rem;
 }
 
-/**/
+.p--l-r {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/*TEXTE*/
 
 .text--none {
     text-decoration: none;
@@ -119,7 +125,7 @@ a.text--light:hover {
     color: var(--secondary-color);
 }
 
-/**/
+/*FOND*/
 
 .bg--primary {
     background-color: var(--primary-color);
@@ -128,11 +134,8 @@ a.text--light:hover {
     background-color: var(--light-color);
 }
 
-/* h1::before, h1::after {
-    content: '>';
-} */
+/*CARD*/
 
-/**/
 .card {
     max-width: 600px;
     margin: 2rem auto;
@@ -157,6 +160,8 @@ a.text--light:hover {
     height: 100%;
     object-fit: cover;
 }
+
+/*FORMULAIRE*/
 
 form {
     display: flex;

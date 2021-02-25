@@ -3,17 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Contact</title>
+    <title>Portfolio - Contactez-moi</title>
     <link rel="stylesheet" href="css/master.css" />
   </head>
+
   <body>
     <header class="bg--primary">
         <nav>
-            <a class="text--light text--none p--1" href="index.html">Accueil</a>
+            <a class="text--light text--none p--1" href="index.html">CV</a>
             <a class="text--light text--none p--1" href="projets.html">Projets</a>
-            <a class="text--light text--none p--1" href="contact.html">Contact</a>
+            <a class="text--light text--none p--1" href="contact.html">Contactez-moi</a>
         </nav>
     </header>
+
     <div class="main-container d--flex">
       <aside class="p--1">
         <div class="card bg--light p--1">
@@ -23,7 +25,7 @@
           <div class="card__txt">
             <blockquote>
               <h2>Prénom Nom</h2>
-              <p>
+              <p class="fs--italic">
                 Illum quia quo sint rerum autem. Iure quis amet. Labore pariatur aperiam similique quia odio iure placeat vero. Quibusdam deserunt nam aut ipsa et eos sunt. Sit aut explicabo repudiandae.
               </p>
             </blockquote>
@@ -35,34 +37,35 @@
       <main>
         <section class="p--1">
           <div class="p--left">
-          <h2 class="p--left">Contact</h2>
+          <h2 class="p--left">Contactez-moi</h2>
                 <form>
                     <label class="p--left" for="prenom">Prénom : </label>
-                    <input id="prenom" type="text">
+                    <input id="prenom" type="text" required>
     
                     <label class="p--left" for="nom">Nom : </label>
-                    <input id="nom" type="text">
+                    <input id="nom" type="text" required>
     
                     <label class="p--left" for="email">Email : </label>
-                    <input id="email" type="email">
+                    <input id="email" type="email"  required>
     
-                    <label class="p--left" for="tel">Tel : </label>
-                    <input id="tel" type="tel">
+                    <label class="p--left" for="tel">Téléphone : </label>
+                    <input id="tel" type="text" required>
     
                     <label class="p--left" for="subject">Sujet : </label>
-                    <input id="subject" type="text">
+                    <input id="subject" type="text" required>
     
                     <label class="p--left" for="message">Message : </label>
-                    <textarea id="message" cols="30" rows="10"></textarea>
+                    <textarea id="message" cols="30" rows="10"required></textarea>
     
-                    <button type="submit">Envoyer votre message</button>
+                    <button>Envoyer votre message</button>
                 </form>
           </div>
         </section>
-
       </main>
     </div>
+
     <footer class="p--1">
     </footer>
   </body>
+  
 </html>
